@@ -109,10 +109,10 @@ WD-ProjectName
 └─ readme.md
 
 ## Resources
-| Title          | Purpose                                           | Link                                                   |
-|----------------|---------------------------------------------------|--------------------------------------------------------|
-| Sample Title   | Example of how to integrate web components.       | [trykolang.com](https://trykolang.com)                 |
-| MDN Web Docs   | Comprehensive documentation for web technologies. | [developer.mozilla.org](https://developer.mozilla.org) |
-| W3Schools      | Educational resources for web development.        | [w3schools.com](https://www.w3schools.com)             |
-| Bootstrap      | Framework for developing responsive websites.     | [getbootstrap.com](https://getbootstrap.com)           |
-| Font Awesome   | Library for scalable vector icons.                | [fontawesome.com](https://fontawesome.com)             |
+
+| Title          | Purpose                                      | Link                                              |
+|----------------|----------------------------------------------|---------------------------------------------------|
+| HTML           | Structure of the web pages                   | [W3Schools HTML](https://www.w3schools.com/html/) |
+| CSS            | Styling the web pages                        | [W3Schools CSS](https://www.w3schools.com/css/)   |
+| JavaScript     | Adding interactivity                         | [W3Schools JS](https://www.w3schools.com/js/)     |
+| Bootstrap      | Framework for responsive design              | [getbootstrap.com](https://getbootstrap.com)      |
