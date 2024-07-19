@@ -59,18 +59,24 @@ footer {
     border-color: #4CAF50;
     font-family: 'Lobster', cursive;
     animation: slide-in 2s ease-in-out;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .footer-style-2 {
     border-color: #2196F3;
     font-family: 'Montserrat', sans-serif;
     animation: fade-in 2s ease-in-out;
+    text-align: right;
+    padding-right: 20px;
 }
 
 .footer-style-3 {
     border-color: #f44336;
     font-family: 'Poppins', sans-serif;
     animation: grow 2s ease-in-out;
+    text-align: left;
+    transform: rotate(-10deg);
 }
 
 .footer-style-4 {
@@ -78,12 +84,15 @@ footer {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     animation: slide-up 2s ease-in-out;
+    transform: skewX(10deg);
 }
 
 .footer-style-5 {
     border-color: #9c27b0;
     font-family: 'Montserrat', sans-serif;
     animation: rotate-in 2s ease-in-out;
+    text-align: right;
+    transform: rotate(10deg);
 }
 
 /* Logo Placements */
@@ -184,7 +193,7 @@ footer {
     }
 }
 
-/* Keyframes for animations */
+/* Keyframes for hover animations */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -240,4 +249,25 @@ footer {
     100% {
         opacity: 1;
     }
+}
+
+/* Hover Animations */
+.footer-style-1:hover {
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.footer-style-2:hover {
+    animation: shake 1s ease-in-out infinite;
+}
+
+.footer-style-3:hover {
+    animation: spin 2s linear infinite;
+}
+
+.footer-style-4:hover {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.footer-style-5:hover {
+    animation: fade 2s ease-in-out infinite;
 }
